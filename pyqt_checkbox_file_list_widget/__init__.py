@@ -1,1 +1,1 @@
-from .checkboxFileListWidget import *
+from .checkBoxFileListWidget import CheckBoxFileListWidget

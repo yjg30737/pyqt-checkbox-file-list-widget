@@ -1,4 +1,5 @@
 from PyQt5.QtCore import Qt, pyqtSignal
+from PyQt5.QtWidgets import QCheckBox
 
 from pyqt_file_list_widget import FileListWidget
 from pyqt_checkbox_list_widget import CheckBoxListWidget
