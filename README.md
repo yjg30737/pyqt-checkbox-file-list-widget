@@ -37,7 +37,7 @@ class MainWindow(QMainWindow):
         self.__listWidget = CheckBoxFileListWidget()
         self.__listWidget.setDatas([os.path.join(os.getcwd(), filename) for filename in os.listdir(os.getcwd())])
         allChkBox.stateChanged.connect(self.__listWidget.toggleState)
-        showFilesNameOnlyChkBox.stateChanged.connect(self.__listWidget.setOnlyFileName)
+        showFilesNameOnlyChkBox.stateChanged.connect(self.__listWidget.setFilenameOnly)
 
         lay = QHBoxLayout()
         lay.setAlignment(Qt.AlignLeft)
