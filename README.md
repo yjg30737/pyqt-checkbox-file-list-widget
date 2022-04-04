@@ -1,15 +1,16 @@
 # pyqt-checkbox-file-list-widget
-PyQt QListWidget for files and supporting the checkbox
+PyQt QListWidget for files and supporting the checkbox.
+
+The main class `CheckBoxFileListWidget` inherits from both `FileListWidget`(<a href="https://github.com/yjg30737/pyqt-file-list-widget.git">pyqt-file-list-widget</a>) and `CheckBoxListWidget`(<a href="https://github.com/yjg30737/pyqt-checkbox-list-widget.git">pyqt-checkbox-list-widget</a>).
 
 ## Requirements
 PyQt5 >= 5.8
 
 ## Included Packages
-* <a href="https://github.com/yjg30737/pyqt-file-list-widget.git">pyqt-file-list-widget</a>
-* <a href="https://github.com/yjg30737/pyqt-checkbox-list-widget.git">pyqt-checkbox-list-widget</a>
+* <a href="https://github.com/yjg30737/pyqt-file-list-widget.git">pyqt-file-list-widget</a> - Parent class
+* <a href="https://github.com/yjg30737/pyqt-checkbox-list-widget.git">pyqt-checkbox-list-widget</a> - Parent class
 
 ## Feature
-This package has aforementioned packages' features both.
 * `getCheckedFilenames() -> list`
 
 ## Setup
