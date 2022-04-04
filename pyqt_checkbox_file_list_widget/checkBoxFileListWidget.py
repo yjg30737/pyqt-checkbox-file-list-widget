@@ -10,3 +10,13 @@ class CheckBoxFileListWidget(FileListWidget, CheckBoxListWidget):
 
     def __init__(self):
         super().__init__()
+
+    def getCheckedFilenames(self) -> list:
+        filenames_to_remove_from_list = []
+        if self.isFilenameOnly():
+            filenames_to_remove_from_list = [self.getAbsFilename(self.item(i).text())
+                                             for i in self.getCheckedRows()]
+        else:
+            filenames_to_remove_from_list = [self.item(i).text()
+                                             for i in self.getCheckedRows()]
+        return filenames_to_remove_from_list
