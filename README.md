@@ -10,6 +10,7 @@ PyQt5 >= 5.8
 
 ## Feature
 This package has aforementioned packages' features both.
+* `getCheckedFilenames() -> list`
 
 ## Setup
 ```pip3 install git+https://github.com/yjg30737/pyqt-checkbox-file-list-widget.git --upgrade```
