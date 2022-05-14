@@ -14,7 +14,7 @@ PyQt5 >= 5.8
 * `getCheckedFilenames() -> list`
 
 ## Setup
-```pip3 install git+https://github.com/yjg30737/pyqt-checkbox-file-list-widget.git --upgrade```
+`python -m pip install pyqt-checkbox-file-list-widget`
 
 ## Code Example
 ```python
