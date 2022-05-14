@@ -11,7 +11,7 @@ setup(
     url='https://github.com/yjg30737/pyqt-checkbox-file-list-widget.git',
     install_requires=[
         'PyQt5>=5.8',
-        'pyqt-checkbox-list-widget @ git+https://git@github.com/yjg30737/pyqt-checkbox-list-widget.git@main',
+        'pyqt-checkbox-list-widget>=0.0.1',
         'pyqt-file-list-widget @ git+https://git@github.com/yjg30737/pyqt-file-list-widget.git@main'
     ]
 )
