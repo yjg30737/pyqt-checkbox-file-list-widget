@@ -37,7 +37,7 @@ class MainWindow(QMainWindow):
         showFilesNameOnlyChkBox = QCheckBox('Show files name only')
 
         self.__listWidget = CheckBoxFileListWidget()
-        self.__listWidget.setDatas([os.path.join(os.getcwd(), filename) for filename in os.listdir(os.getcwd())])
+        self.__listWidget.setFilenames([os.path.join(os.getcwd(), filename) for filename in os.listdir(os.getcwd())])
         allChkBox.stateChanged.connect(self.__listWidget.toggleState)
         showFilesNameOnlyChkBox.stateChanged.connect(self.__listWidget.setFilenameOnly)
 
